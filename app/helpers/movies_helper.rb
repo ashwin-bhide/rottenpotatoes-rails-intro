@@ -4,11 +4,4 @@ module MoviesHelper
     count.odd? ?  "odd" :  "even"
   end
   
-  def sort_movie_title()
-    link_to "Movie Title", {colm: "title"}, :id => "title_header"
-  end
-  
-  def sort_release_date()
-    link_to "Release Date", {colm: "release_date"}, id => "date_header"
-  end  
 end
